@@ -5,7 +5,7 @@ public class Caballero {
         private int edadCuandoRecibioArmadura;
         private Constelacion constelacion;
 
-        // Constructor con 4 parámetros
+
         public Caballero(String nombre, int maldad, int edadCuandoRecibioArmadura, Constelacion constelacion) {
                 this.nombre = nombre;
                 this.maldad = maldad;

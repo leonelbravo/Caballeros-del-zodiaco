@@ -11,6 +11,7 @@ public class Santuario {
         }
         return false;
     }
+
     public List<Caballero> caballerosCercanosAlSol() {
         List<Caballero> cercanosAlSol = new ArrayList<>();
         for (Caballero c : losCaballeros) {

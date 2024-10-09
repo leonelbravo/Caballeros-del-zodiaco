@@ -1,7 +1,7 @@
 public class Constelacion {
 
-    Long distanciaDelSol;
-    boolean enBandaCeleste;
+    private Long distanciaDelSol;
+    private boolean enBandaCeleste;
 
     public Constelacion(Long distanciaDelSol, boolean enBandaCeleste) {
         this.distanciaDelSol = distanciaDelSol;
@@ -14,5 +14,22 @@ public class Constelacion {
 
     public boolean esDeOro() {
         return enBandaCeleste;
+    }
+
+    // Getters y Setters
+    public Long getDistanciaDelSol() {
+        return distanciaDelSol;
+    }
+
+    public void setDistanciaDelSol(Long distanciaDelSol) {
+        this.distanciaDelSol = distanciaDelSol;
+    }
+
+    public boolean isEnBandaCeleste() {
+        return enBandaCeleste;
+    }
+
+    public void setEnBandaCeleste(boolean enBandaCeleste) {
+        this.enBandaCeleste = enBandaCeleste;
     }
 }
